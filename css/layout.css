@@ -1,0 +1,97 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html { font-size: 50%; // 8px }
+
+header, footer{
+	padding-left: 1.5rem;
+	font-family: Berkshire Swash;
+	font-size: 4rem;
+	background: #0077ff; /* Old browsers */
+	background: -moz-linear-gradient(left, #1e5799 0%, #7db9e8 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#1e5799), color-stop(100%,#7db9e8)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left, #1e5799 0%,#7db9e8 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left, #1e5799 0%,#7db9e8 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left, #1e5799 0%,#7db9e8 100%); /* IE10+ */
+	background: linear-gradient(to right, #1e5799 0%,#7db9e8 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 */
+}
+footer{
+	padding-left: 1.5rem;
+	font-family: Berkshire Swash;
+	font-size: 4rem;
+	background: #0077ff; /* Old browsers */
+	background: -moz-linear-gradient(left, #1e5799 0%, #7db9e8 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#1e5799), color-stop(100%,#7db9e8)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left, #1e5799 0%,#7db9e8 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left, #1e5799 0%,#7db9e8 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left, #1e5799 0%,#7db9e8 100%); /* IE10+ */
+	background: linear-gradient(to right, #1e5799 0%,#7db9e8 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 */
+}
+
+
+body{
+	margin:0;
+	padding:0;
+}
+
+#main{
+	font-family: Optima;
+	margin: 1.5rem;
+	padding-top: 0.1rem;
+	padding-left: 28rem;
+	font-size: 2rem;
+}
+
+nav{
+	margin: 0 1.5rem;
+ 	width: 24rem;
+ 	float: left;
+}
+
+.wow-text{
+	font-family: Berkshire Swash;
+}
+
+.sane-text{
+	font-family: Roboto Slab;
+}
+
+
+.button {
+	margin: 1.5rem auto;
+	font-family: Roboto Slab;
+	font-size: 4rem;
+ 	display: block;
+ 	width: 20rem;
+ 	padding: 2rem;
+ 	color: #000;
+ 	background-color: transparent;
+ 	border: 0.3rem solid #000;
+ 	border-radius: 1rem;
+ 	text-align: center;
+ 	outline: none;
+ 	text-decoration: none;
+  	transition: color 0.3s ease-out,
+              	background-color 0.3s ease-out,
+              	border-color 0.3s ease-out;
+}
+.button:hover,
+.button:active {
+ 	background-color: rgba(246, 255, 128, 7);
+ 	border-color: #073;
+ 	color: rgba(126, 158, 0, 7);
+ 	transition: color 0.3s ease-in,
+              	background-color 0.3s ease-in,
+              	border-color 0.3s ease-in;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 1rem;
+}
+
+table {background-color: #f6ff80}
+th {background-color:#a6b200}
+td {background-color: #fff}
